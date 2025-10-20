@@ -1,3 +1,8 @@
+index.tsx(4,11): error TS2786: 'Swiper' cannot be used as a JSX component.
+  Its type 'FunctionComponent<RefAttributes<SwiperRef> & Omit<HTMLAttributes<HTMLElement>, "onProgress" | "onClick" | "onTouchEnd" | "onTouchMove" | ... 5 more ... | "onResize"> & SwiperOptions & { ...; } & { ...; }>' is not a valid JSX element type.
+    Type 'FunctionComponent<RefAttributes<SwiperRef> & Omit<HTMLAttributes<HTMLElement>, "onProgress" | "onClick" | "onTouchEnd" | "onTouchMove" | ... 5 more ... | "onResize"> & SwiperOptions & { ...; } & { ...; }>' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.
+      Type 'ReactNode | Promise<ReactNode>' is not assignable to type 'ReactNode'.
+        Type 'bigint' is not assignable to type 'ReactNode'.
 ../../node_modules/.pnpm/typescript@5.8.3/node_modules/typescript/lib/lib.es5.d.ts
   Library referenced via 'es5' from file '../../node_modules/.pnpm/typescript@5.8.3/node_modules/typescript/lib/lib.es2015.d.ts'
 ../../node_modules/.pnpm/typescript@5.8.3/node_modules/typescript/lib/lib.es2015.d.ts
@@ -47,16 +52,20 @@
   Referenced via 'global.d.ts' from file '../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts'
 ../../node_modules/.pnpm/csstype@3.1.3/node_modules/csstype/index.d.ts
   Imported via "csstype" from file '../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts' with packageId 'csstype/index.d.ts@3.1.3'
+  Imported via "csstype" from file '../../node_modules/.pnpm/@types+react@19.0.10/node_modules/@types/react/index.d.ts' with packageId 'csstype/index.d.ts@3.1.3'
 ../../node_modules/.pnpm/@types+prop-types@15.7.14/node_modules/@types/prop-types/index.d.ts
   Imported via "prop-types" from file '../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts' with packageId '@types/prop-types/index.d.ts@15.7.14'
 ../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/index.d.ts
   Imported via "./" from file '../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts' with packageId '@types/react/ndex.d.ts@18.3.1'
   Imported via "./" from file '../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts' with packageId '@types/react/ndex.d.ts@18.3.1'
-  Imported via 'react' from file '../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/swiper-react.d.ts' with packageId '@types/react/index.d.ts@18.3.1'
   Entry point for implicit type library 'react' with packageId '@types/react/index.d.ts@18.3.1'
-  Imported via "react" from file '../../node_modules/.pnpm/@types+react-dom@18.3.1/node_modules/@types/react-dom/index.d.ts' with packageId '@types/react/index.d.ts@18.3.1'
 ../../node_modules/.pnpm/@types+react@18.3.1/node_modules/@types/react/jsx-runtime.d.ts
   Imported via "react/jsx-runtime" from file 'index.tsx' with packageId '@types/react/jsx-runtime.d.ts@18.3.1' to import 'jsx' and 'jsxs' factory functions
+../../node_modules/.pnpm/@types+react@19.0.10/node_modules/@types/react/global.d.ts
+  Referenced via 'global.d.ts' from file '../../node_modules/.pnpm/@types+react@19.0.10/node_modules/@types/react/index.d.ts'
+../../node_modules/.pnpm/@types+react@19.0.10/node_modules/@types/react/index.d.ts
+  Imported via 'react' from file '../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/swiper-react.d.ts' with packageId '@types/react/index.d.ts@19.0.10'
+  Imported via "react" from file '../../node_modules/.pnpm/@types+react-dom@18.3.1/node_modules/@types/react-dom/index.d.ts' with packageId '@types/react/index.d.ts@19.0.10'
 ../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/types/shared.d.ts
   Imported via './shared.d.ts' from file '../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/types/index.d.ts' with packageId 'swiper/types/shared.d.ts@11.2.10'
   Imported via '../shared.d.ts' from file '../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/types/modules/mousewheel.d.ts' with packageId 'swiper/types/shared.d.ts@11.2.10'
