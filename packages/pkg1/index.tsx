@@ -1,5 +1,5 @@
-import { Button } from "antd";
+import { Swiper } from "swiper/react";
 
 export const App = () => {
-  return <Button>123</Button>;
+  return <Swiper>123</Swiper>;
 };
